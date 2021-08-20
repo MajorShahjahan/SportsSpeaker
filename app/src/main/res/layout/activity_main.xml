@@ -8,8 +8,12 @@
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/gridLayout"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
         app:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,63 +22,69 @@
         app:rowCount="3">
 
         <ImageButton
-            android:id="@+id/imageButton8"
+            android:id="@+id/imgBoxing"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="fitCenter"
+            android:tag="boxing"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             app:srcCompat="@drawable/boxing"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton11"
+            android:id="@+id/imgKickBoxing"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="fitCenter"
+            android:tag="kickboxing"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             app:srcCompat="@drawable/kickboxing"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton12"
+            android:id="@+id/imgJudo"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="fitCenter"
+            android:tag="judo"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
-            app:srcCompat="@drawable/boxing"
+            app:srcCompat="@drawable/judo"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton13"
+            android:id="@+id/imgKarate"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="fitCenter"
+            android:tag="karate"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
-            app:srcCompat="@drawable/boxing"
+            app:srcCompat="@drawable/karate"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton14"
+            android:id="@+id/imgAikido"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="fitCenter"
+            android:tag="aikido"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
-            app:srcCompat="@drawable/boxing"
+            app:srcCompat="@drawable/aikido"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton15"
+            android:id="@+id/imgTaekWondo"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="fitCenter"
+            android:tag="taekwondo"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
-            app:srcCompat="@drawable/boxing"
+            app:srcCompat="@drawable/taekwondo"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </androidx.gridlayout.widget.GridLayout>
